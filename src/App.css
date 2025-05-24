@@ -1,42 +1,30 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+body {
+  /* Always show scroll bar, but hide it visually for a clean look */
+  scrollbar-width: thin;
+  scrollbar-color: #444 #222;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+body::-webkit-scrollbar {
+  width: 8px;
+  background: transparent;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body::-webkit-scrollbar-thumb {
+  background: #444;
+  border-radius: 4px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+body::-webkit-scrollbar-track {
+  background: transparent;
 }
 
-.card {
-  padding: 2em;
+/* Hide scrollbars for elements with .scrollbar-hidden but allow scrolling */
+.scrollbar-hidden {
+  overflow: auto;                /* Enables scrolling */
+  scrollbar-width: none;        /* Firefox */
+  -ms-overflow-style: none;     /* IE 10+ */
 }
 
-.read-the-docs {
-  color: #888;
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;                /* Chrome/Safari/Webkit */
 }
