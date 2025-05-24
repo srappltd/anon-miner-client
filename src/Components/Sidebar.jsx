@@ -236,7 +236,7 @@ const Sidebar = ({ isExpanded, setIsExpanded }) => {
                     <AnimatePresence>
                       {isExpanded && (
                         <motion.span
-                          className="ml-4 font-medium whitespace-nowrap"
+                          className="ml-4  font-medium whitespace-nowrap"
                           variants={textVariants}
                           initial="hidden"
                           animate="visible"
@@ -259,7 +259,7 @@ const Sidebar = ({ isExpanded, setIsExpanded }) => {
                       animate="visible"
                       exit="hidden"
                     >
-                      <div className="relative">
+                      <div className="relative top-[-1rem]">
                         <div className="bg-gradient-to-r from-gray-800 to-gray-700 text-white px-4 py-2 rounded-lg shadow-2xl border border-gray-600/50 backdrop-blur-sm">
                           <span className="font-medium whitespace-nowrap">{item.text}</span>
                         </div>

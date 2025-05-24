@@ -142,7 +142,7 @@ const SecuritySection = () => {
           </form>
         </div>
         
-        <div className="bg-gray-900 border border-gray-700 rounded-lg p-6">
+        {/* <div className="bg-gray-900 border border-gray-700 rounded-lg p-6">
           <h3 className="text-md font-medium mb-4">Two-Factor Authentication</h3>
           <div className="flex items-center justify-between">
             <div>
@@ -157,9 +157,9 @@ const SecuritySection = () => {
               Enable 2FA
             </button>
           </div>
-        </div>
+        </div> */}
         
-        <div className="bg-gray-900 border border-gray-700 rounded-lg p-6">
+        {/* <div className="bg-gray-900 border border-gray-700 rounded-lg p-6">
           <h3 className="text-md font-medium mb-4">Active Sessions</h3>
           <div className="space-y-4">
             <div className="flex items-center justify-between p-3 bg-gray-800 rounded-lg">
@@ -195,7 +195,7 @@ const SecuritySection = () => {
               <button className="text-red-400 hover:text-red-300 text-xs">Revoke</button>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

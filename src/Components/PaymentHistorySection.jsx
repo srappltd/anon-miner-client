@@ -89,7 +89,7 @@ const PaymentHistorySection = () => {
             </div>
           </div>
           
-          <div className="mt-6 bg-gray-900 border border-gray-700 rounded-lg p-6">
+          {/* <div className="mt-6 bg-gray-900 border border-gray-700 rounded-lg p-6">
             <h3 className="text-md font-medium mb-4">Payment Methods</h3>
             <div className="flex items-center justify-between p-3 bg-gray-800 rounded-lg">
               <div className="flex items-center">
@@ -117,7 +117,7 @@ const PaymentHistorySection = () => {
               </svg>
               Add Payment Method
             </button>
-          </div>
+          </div> */}
         </div>
       );
 }

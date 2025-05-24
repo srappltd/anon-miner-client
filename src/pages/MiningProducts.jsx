@@ -199,8 +199,8 @@ const MiningProducts = ({ className }) => {
                   >
                     <option value="">Select Token</option>
                     {tokenOptions.map((option, index) => (
-                      <option key={index} value={option.value}>
-                        {option.label}
+                      <option key={index} value={option}>
+                        {option}
                       </option>
                     ))}
                   </select>
