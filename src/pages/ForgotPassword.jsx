@@ -6,7 +6,7 @@ import { sendForForgetWithUsername, verifyOtpForForgetWithUsername, createNewPas
 import { nameValidator, passwordValidator, confirmPasswordValidator } from '../utils/inputValidator';
 import { AuthRoutes } from '../context/Routes';
 import Swal from 'sweetalert2';
-import DualOtpVerificationPopup from '../components/UI/DualOtpVerificationPopup';
+import DualOtpVerificationPopup from '../Components/UI/DualOtpVerificationPopup';
 
 const ForgotPassword = () => {
   const navigate = useNavigate();

@@ -16,7 +16,7 @@ import {
 } from '../utils/inputValidator';
 import { countriesWithCode } from "../context/authContent";
 
-import DualOtpVerificationPopup from '../components/UI/DualOtpVerificationPopup';
+import DualOtpVerificationPopup from '../Components/UI/DualOtpVerificationPopup';
 
 const Register = () => {
   const navigate = useNavigate();

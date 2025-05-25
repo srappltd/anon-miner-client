@@ -1,25 +1,25 @@
 import React from "react";
-import HeroSection from "../components/HeroSection";
-import OurTopIntegration from "../components/OurTopIntegration";
-import ProductSection from "../components/ProductSection";
-import ServiceSection from "../components/ServiceSection";
-import FeatureSection from "../components/FeatureSection";
-import CoinDoxSection from "../components/CoinDoxSection";
-import How_Earn from "../components/How_Earn";
-import QuestionPage from "../components/QuestionPage";
-import { StartMining } from "../components/StartMining";
-import SuscribeNews from "../components/SuscribeNews";
+import HeroSection from "../Components/HeroSection";
+import OurTopIntegration from "../Components/OurTopIntegration";
+import ProductSection from "../Components/ProductSection";
+import ServiceSection from "../Components/ServiceSection";
+import FeatureSection from "../Components/FeatureSection";
+import CoinDoxSection from "../Components/CoinDoxSection";
+import How_Earn from "../Components/How_Earn";
+import QuestionPage from "../Components/QuestionPage";
+import { StartMining } from "../Components/StartMining";
+import SuscribeNews from "../Components/SuscribeNews";
 import GetTouchContact from "../contactComponent/GetTouchContact";
-import Whyprestorix from "../components/Whyprestorix";
-import AboutPretorix from "../components/AboutPretorix";
+import Whyprestorix from "../Components/Whyprestorix";
+import AboutPretorix from "../Components/AboutPretorix";
 import AdvancedFeatures from "../AdvanceFeatures";
 import BenefitsSection from "../BenefitsSection";
-import FAQSection from "../components/users/FAQSection";
+import FAQSection from "../Components/users/FAQSection";
 import NextGenSection from "./NextGenSection ";
 import Testimonials from "../Testimonials";
 import DecentralizedFuture2 from "./DecentralizedFuture2";
-import JourneySection from "../components/JourneySection/JourneySection";
-import CountrySlider from "../components/CountrySlider";
+import JourneySection from "../Components/JourneySection/JourneySection";
+import CountrySlider from "../Components/CountrySlider";
 
 
 
